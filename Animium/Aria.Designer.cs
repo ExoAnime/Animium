@@ -1,6 +1,6 @@
 ﻿namespace Animium
 {
-    partial class Form1
+    partial class Aria
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.

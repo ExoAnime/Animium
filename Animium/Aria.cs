@@ -12,11 +12,11 @@ using System.Net;
 
 namespace Animium
 {
-    public partial class Form1 : Form
+    public partial class Aria : Form
     {
         public String html;
         public Uri url;
-        public Form1()
+        public Aria()
         {
             InitializeComponent();
         }
