@@ -12,11 +12,11 @@ using System.Net;
 
 namespace Animium
 {
-    public partial class Aria : Form
+    public partial class aform2main : Form
     {
         public String html;
         public Uri url;
-        public Aria()
+        public aform2main()
         {
             InitializeComponent();
         }
@@ -78,49 +78,14 @@ namespace Animium
             }
 
         }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
-        }
-
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = comboBox1.SelectedItem.ToString();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

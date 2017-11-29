@@ -87,16 +87,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aria.cs">
+    <Compile Include="aform2watch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aria.Designer.cs">
-      <DependentUpon>Aria.cs</DependentUpon>
+    <Compile Include="aform2watch.Designer.cs">
+      <DependentUpon>aform2watch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aform2main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aform2main.Designer.cs">
+      <DependentUpon>aform2main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aform2list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aform2list.Designer.cs">
+      <DependentUpon>aform2list.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Aria.resx">
-      <DependentUpon>Aria.cs</DependentUpon>
+    <EmbeddedResource Include="aform2list.resx">
+      <DependentUpon>aform2list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aform2main.resx">
+      <DependentUpon>aform2main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aform2watch.resx">
+      <DependentUpon>aform2watch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
