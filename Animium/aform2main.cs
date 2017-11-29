@@ -78,14 +78,21 @@ namespace Animium
             }
 
         }
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = comboBox1.SelectedItem.ToString();
+            aform2watch.textBox1.Text = comboBox1.SelectedItem.ToString();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            aform2list f2 = new aform2list();
+            f2.Show();
+        }
     }
 }
