@@ -77,7 +77,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button5;
+        public System.Windows.Forms.TextBox textBox1;
     }
 }

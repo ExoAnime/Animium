@@ -86,7 +86,9 @@ namespace Animium
 
         private void button2_Click(object sender, EventArgs e)
         {
-            aform2watch.textBox1.Text = comboBox1.SelectedItem.ToString();
+            aform2watch f4 = new aform2watch();
+            f4.textBox1.Text = comboBox1.SelectedItem.ToString();
+            f4.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
