@@ -16,5 +16,15 @@ namespace Animium
         {
             InitializeComponent();
         }
+
+        private void aform2list_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

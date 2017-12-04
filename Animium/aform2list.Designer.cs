@@ -60,6 +60,7 @@
             this.Controls.Add(this.comboBox2);
             this.Name = "aform2list";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.aform2list_Load);
             this.ResumeLayout(false);
 
         }

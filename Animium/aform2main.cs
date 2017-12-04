@@ -86,8 +86,8 @@ namespace Animium
 
         private void button2_Click(object sender, EventArgs e)
         {
-            aform2watch f4 = new aform2watch();
-            f4.textBox1.Text = comboBox1.SelectedItem.ToString();
+            chrome f4 = new chrome();
+            f4.textUrl.Text = comboBox1.SelectedItem.ToString();
             f4.Show();
         }
 

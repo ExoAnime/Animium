@@ -1,6 +1,6 @@
 ﻿namespace Animium
 {
-    partial class aform2watch
+    partial class chrome
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.pContainer = new System.Windows.Forms.Panel();
+            this.textUrl = new System.Windows.Forms.TextBox();
+            this.btnGo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // panel1
+            // pContainer
             // 
-            this.panel1.Location = new System.Drawing.Point(12, 63);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(621, 341);
-            this.panel1.TabIndex = 9;
+            this.pContainer.Location = new System.Drawing.Point(12, 63);
+            this.pContainer.Name = "pContainer";
+            this.pContainer.Size = new System.Drawing.Size(621, 341);
+            this.pContainer.TabIndex = 9;
+            this.pContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.pContainer_Paint);
             // 
-            // textBox1
+            // textUrl
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(501, 20);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.ModifiedChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textUrl.Location = new System.Drawing.Point(12, 19);
+            this.textUrl.Name = "textUrl";
+            this.textUrl.Size = new System.Drawing.Size(501, 20);
+            this.textUrl.TabIndex = 11;
+            this.textUrl.ModifiedChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textUrl.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button5
+            // btnGo
             // 
-            this.button5.Location = new System.Drawing.Point(537, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 33);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Watch";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnGo.Location = new System.Drawing.Point(537, 12);
+            this.btnGo.Name = "btnGo";
+            this.btnGo.Size = new System.Drawing.Size(96, 33);
+            this.btnGo.TabIndex = 10;
+            this.btnGo.Text = "Watch";
+            this.btnGo.UseVisualStyleBackColor = true;
+            this.btnGo.Click += new System.EventHandler(this.button5_Click);
             // 
-            // aform2watch
+            // chrome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 416);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.panel1);
-            this.Name = "aform2watch";
+            this.Controls.Add(this.textUrl);
+            this.Controls.Add(this.btnGo);
+            this.Controls.Add(this.pContainer);
+            this.Name = "chrome";
             this.Text = "aform2watch";
             this.Load += new System.EventHandler(this.aform2watch_Load);
             this.ResumeLayout(false);
@@ -76,8 +78,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button5;
-        public System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel pContainer;
+        private System.Windows.Forms.Button btnGo;
+        public System.Windows.Forms.TextBox textUrl;
     }
 }

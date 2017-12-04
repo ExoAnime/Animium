@@ -16,7 +16,10 @@ namespace Animium
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new aform2main());
+            using (var aform2main1 = new aform2main())
+            {
+                Application.Run(aform2main1);
+            }
         }
     }
 }
